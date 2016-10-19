@@ -1,5 +1,7 @@
 nodejs:
   version: '5.10.1'
+tests:
+  - npm test
 hooks:
   pre_setup: |
     set -e         # Exit on error

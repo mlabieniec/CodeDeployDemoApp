@@ -1,0 +1,15 @@
+nodejs:
+  version: '5.10.1'
+hooks:
+  pre_setup: |
+    set -e         # Exit on error
+    npm install    # Next command presumes bower is in package.json
+    bower install  # <repo-root>/node_modules/.bin is early in $PATH
+# npm/bower specific cache settings
+cache:
+  key_paths:
+    - package.json
+    - bower.json
+  save_paths:
+    - REPO/node_modules
+    - REPO/bower_components

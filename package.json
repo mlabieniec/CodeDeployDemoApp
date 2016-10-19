@@ -1,0 +1,22 @@
+{
+  "name": "codedeploydemo",
+  "version": "1.0.0",
+  "description": "a code deploy demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"App tests go here\" && bower install -f"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlabieniec/CodeDeployDemoApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mlabieniec/CodeDeployDemoApp/issues"
+  },
+  "homepage": "https://github.com/mlabieniec/CodeDeployDemoApp#readme",
+  "dependencies": {
+    "grunt": "^1.0.1"
+  }
+}
